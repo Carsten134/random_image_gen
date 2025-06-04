@@ -15,7 +15,7 @@ st.write(f"""
   Chosen process:
 $$
 \\begin{{align*}}
-      X_{{ij}} &= \phi_1 X_{{i-1,j}}+\phi_2 X_{{i-1, j-1}} +\phi_3 X_{{i-1,j}} + \epsilon_{{ij}} \\\\
+      X_{{ij}} &= \phi_1 X_{{i,j-1}}+\phi_2 X_{{i-1, j-1}} +\phi_3 X_{{i-1,j}} + \epsilon_{{ij}} \\\\
          &= {phi_1}X_{{i-1,j}} + {phi_2} X_{{i-1, j-1}} + {phi_3}X_{{i-1,j}}   
 \\end{{align*}}
 $$
