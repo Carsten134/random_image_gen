@@ -26,4 +26,4 @@ res = st.slider("Resolution",25, 300, 100)
 if st.button("Generate", type = "primary"):
   sampler = PlaneSampler(60, phi_1, phi_2, phi_3)
   fig = sampler.plot(res)
-  st.pyplot(fig)
+  st.pyplot(fig, dpi = 200)
