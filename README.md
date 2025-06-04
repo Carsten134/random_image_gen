@@ -1,5 +1,6 @@
 ## Random image generato
 For my Master's thesis I am investigating two dimensional stationary processes. One such process is the **quarterplane process**:
+
 $$
 X_{ij} = \begin{pmatrix}
   \phi_1 & 1 \\
